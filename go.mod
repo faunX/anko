@@ -1,5 +1,5 @@
-module github.com/0xE232FE/anko
+module anko
 
-go 1.13
+go 1.18
 
-replace github.com/mattn/anko => githuub.com/0xE232FE/anko select-stmt
+require github.com/mattn/anko v0.1.9
